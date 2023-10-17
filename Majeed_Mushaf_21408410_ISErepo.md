@@ -52,6 +52,14 @@ In addition to diligent coding, I maintained a disciplined daily routine. At the
 - **Output**: Communicates with other modules and displays results to the user.
 - **Assumptions**: Drives user interaction, handles the main program flow, and ensures the correct execution of various sub-modules.
 ## Running the Production Code
+### Output
+Enter the number of sides: 
+3
+Enter the side length: 5
+The shape with 3 sides is a Triangle
+Area: 10.825317547305483
+Image not found for Triangle
+Area is too small.
 1. **Setup**: Ensure you have the following in place:
    - Java Development Kit (JDK) installed.
    - The "ISEimages" folder with PNG images in the same directory as the code.
@@ -164,6 +172,37 @@ In the table:
 "done" indicates that the task has been completed for that module.
 "not done" indicates that the task has not been completed for that module.
 "not applicable" indicates that a specific type of testing is not relevant for the module.
+### Commit Log has been attached as an image in repository folder
+**Achievements**:
+
+1. **Module Design and Implementation**: I successfully designed and implemented the required modules for the `ChildrensMathSoftware`. These modules include `calculateArea`, `identifyShape`, and `displayImage`.
+
+2. **Test Design**: I designed test cases for these modules using various testing techniques, including black-box testing with equivalence partitioning (EP) and boundary value analysis (BVA), as well as white-box testing with path coverage.
+
+3. **Test Code Implementation**: I translated the test designs into actual Java code, using JUnit for white-box testing and plain Java for black-box testing.
+
+4. **Execution and Results**: I executed the test cases and obtained results, identifying any test failures. I used the results to verify the correctness of the code and improve it where needed.
+
+**Challenges**:
+
+1. **Designing Equivalence Partitions**: One challenge was creating comprehensive equivalence partitions for all possible inputs. Determining meaningful partitions for boundary value analysis was also challenging.
+
+2. **Implementing White-Box Tests**: Writing white-box tests, especially for path coverage, required a deep understanding of the code structure. Ensuring full path coverage can be complex and time-consuming.
+
+**Limitations and Ways to Improve**:
+
+1. **Limited Test Coverage**: The testing performed covers the basic functionalities of the program. However, for a production application, additional test scenarios, edge cases, and corner cases would need to be considered.
+
+2. **Refinement of White-Box Testing**: White-box testing could benefit from more thorough path coverage testing, including edge cases and more complex control flow scenarios.
+
+3. **Error Handling**: The code could be improved by implementing more robust error handling mechanisms. Currently, it assumes that inputs are within acceptable ranges.
+
+4. **Automated Testing Framework**: For larger projects, it's advisable to set up an automated testing framework that runs tests automatically when code changes are made.
+
+5. **User Interface**: The program could be enhanced with a user-friendly graphical user interface (GUI) to facilitate user interactions and improve the overall user experience.
+
+In conclusion, the work done so far provides a foundation for testing the `ChildrensMathSoftware` program. However, there is room for improvement, particularly in terms of test coverage, error handling, and user interface. As with any software project, continuous testing and refinement are essential for ensuring its reliability and usability.
+
 
 
 
